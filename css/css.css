@@ -9,11 +9,21 @@
   }
 
 body {
+    background: url(/img/maneFon.png) no-repeat;
     width: 1440px;
+    padding: 0;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+h1 {
+    font-family: "Montserrat-Bold";
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0;
 }
 
 h3 {
@@ -21,6 +31,7 @@ h3 {
     font-size: 12px;
     line-height: 15px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h4 {
@@ -29,17 +40,23 @@ h4 {
     font-weight: normal;
 }
 
-.content {
-    width: 1160px;
+.headerFon {
     height: 70px;
     background-color: #FFFFFF;
-    margin: 0 auto;
+}
+
+.content {
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
     }
 
 .header {
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0;
 }
 
 .allLogo {
@@ -85,6 +102,32 @@ h4 {
     margin-right: 20px;
 }
 
+.services {
+    display: flex;
+    align-items: center;
+}
+
+.popUpMenu {
+    position: relative;
+}
+
+.popUpMenuImg {
+    width: 24px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popUpMenuContent {
+    display: none;
+}
+
+.popUpMenu:hover .popUpMenuContent {
+    display: block;
+    position: absolute; 
+}
+
 li h4 {
     color: rgba(31, 32, 65, 0.5);
     line-height: 17px;
@@ -112,19 +155,98 @@ li h4 {
     justify-content: center;
   }
 
-  .registrationBottom {
-    width: 196px;
-    height: 34px;
+  .gradientButtom {
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-    border-radius: 22px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .registrationBottom h3 {
     color: #FFFFFF;
+    border-radius: 22px;
   }
 
+  .registrationButtom {
+    width: 196px;
+    height: 34px;
+  }
 
+  .contentPositioning {
+    display: flex;
+    justify-content: space-between;
+    height: 760px;
+    padding-top: 70px;
+    }
 
+  .searchOfNumbers {
+    width: 350px;
+    height: 324px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding-left: 30px;
+    padding-top: 40px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+
+  .data {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .imputName {
+    margin-top: 21px;
+  }
+
+  .imputName h3 {
+    margin-bottom: 5.44px;
+  }
+
+  .imputContent {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .popUpMenuConteiner {
+    width: 41px;
+    height: 42px;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-left: none;
+    margin-right: 20px;
+  }
+
+  .imputStandart {
+    height: 40px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    padding-left: 15px;
+    outline:none;
+    font-family: "Montserrat-Regular";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+  }
+
+  .DDMMYYYY {
+    width: 90px;
+  }
+
+  .guests {
+    width: 260px;
+  }
+
+  .buttomSize {
+    width: 320px;
+    height: 44px;
+  }
+
+  .buttomSizeMargin {
+    margin-top: 31px;
+  }
+
+  .slogan {
+    text-align: right;
+    line-height: 24px;
+    align-self: flex-end;
+  }
+ 
