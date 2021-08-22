@@ -1,0 +1,214 @@
+.headerFon {
+    height: 70px;
+    background-color: #FFFFFF;
+}
+
+.content {
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.allLogo {
+    display: flex;
+    align-items: center;
+}
+
+.logoFon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12.5px;
+}
+
+.logo {
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    border-radius: 18px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+   
+.logoArc {
+    margin-top: 12.29px;
+}
+
+.menu {
+    display: flex;
+    align-items: center; 
+}
+
+.menu li {
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+}
+
+.popUpMenuContent {
+    display: none;
+}
+
+.popUpMenu:hover .popUpMenuContent {
+    display: block;
+    position: absolute; 
+}
+
+.imputName {
+    margin-top: 21px;
+  }
+
+  .imputName h3 {
+    margin-bottom: 5.44px;
+  }
+
+  .imputContent {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .popUpMenuConteiner {
+    width: 41px;
+    height: 42px;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-left: none;
+    margin-right: 20px;
+  }
+
+  .imputStandart {
+    height: 40px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    padding-left: 15px;
+    outline:none;
+    font-family: "Montserrat-Regular";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+  }
+
+li h4 {
+    color: rgba(31, 32, 65, 0.5);
+    line-height: 17px;
+}
+.enter {
+    width: 87px;
+    height: 34px;
+    background: linear-gradient(to right, #BC9CFF,#8BA4F9);
+    border-radius: 22px;
+    color: #BC9CFF;
+    border: 0;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .enter h3 {
+    width: 83px;
+    height: 30px;
+    border-radius: 19px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gradientButtom {
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border-radius: 22px;
+  }
+
+  .registrationButtom {
+    width: 196px;
+    height: 34px;
+  }
+
+  .footerPositions {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+  }
+  
+  .contentFooter {
+      margin-top: 100px;
+  }
+
+  .columnFooter {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .contentFooter h4 {
+    line-height: 24px;
+  }
+
+  .columnFooter li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .columnFooter ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .columnFooter ul h3 {
+    padding-bottom: 19px;
+    margin-top: 5px;
+  }
+
+  .columnFooter ul h4 {
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    padding-bottom: 14px;
+  }
+
+  .inputEmail {
+    width: 200px;
+  }
+
+  .specialOffers {
+    color: rgba(31, 32, 65, 0.75);
+  }
+
+
+
+
+
+
+
+
+  .z {
+      height: 40px;
+      border: 1px solid #000;
+  }

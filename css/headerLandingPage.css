@@ -1,0 +1,10 @@
+body {
+    background: url(/img/maneFon.png) no-repeat;
+}
+
+.contentPositioning {
+    display: flex;
+    justify-content: space-between;
+    height: 760px;
+    padding-top: 70px;
+}
